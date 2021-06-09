@@ -1,0 +1,110 @@
+/*
+HOME PAGE
+*/
+.home-page{}
+.home-page .section{}
+.home-page .section .title{
+    margin-bottom: 20px;
+}
+.home-page .section .tutors{
+
+}
+.home-page .section .tutors .tutor{
+    border: 2px #ea5252 solid;
+    background: #fff;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    margin-right: 20px;
+    border-radius: 50px;
+    padding: 3px;
+}
+.home-page .section .tutors .tutor img{
+    width: 100%;
+    height: 100%;
+    border-radius: 55px;
+}
+.home-page .section .tutors .tutor:hover{}
+
+.section-b{
+    margin-top: 30px;
+}
+.section .courses{}
+.section .courses a{
+    flex: 1;
+    /* margin-left: 15px;  */
+    margin-right: 15px; 
+}
+.section .courses .block{
+    /*width: 250px;*/
+    height: 375px;
+    background: #e2e2e2;
+    border-radius: 20px;
+    background-size: cover !important;     
+}
+/* .section .courses a:last-child{
+    margin-right: auto;
+} */
+.section .courses .block .user{
+    padding: 20px;
+    z-index: 1;
+}
+.section .courses .block .user .pic{
+    width: 40px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+}
+.section .courses .block .user .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.section .courses .block .user .meta{}
+.section .courses .block .user .meta .name{}
+.section .courses .block .user .meta .uname{}
+
+.section .courses .block  .dura{
+    top: 95px;
+    left: 20px;
+    background: #ea5252;
+    line-height: 1;
+    padding: 8px 15px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.33);
+    z-index: 1;
+}
+.section .courses .block  .course-title{
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    background: rgba(0, 0, 0, 0.75);
+    padding: 15px 20px;
+    border-radius: 20px;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.home-page .top-tutors{
+    flex-wrap: wrap;
+}
+.home-page .section .user-block{
+    margin: 0px 50px 30px 0px;
+}
+.home-page .section .user-block .pic{
+    width: 40px;
+    height: 40px;
+    border: 2px #fff solid;
+    border-radius: 50%;
+    padding: 3px;
+    margin-right: 10px;
+}
+.home-page .section .user-block .pic img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.home-page .section .user-block .meta{}
+.home-page .section .user-block .meta .name{}
+.home-page .section .user-block .meta .uname{}

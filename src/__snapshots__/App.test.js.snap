@@ -1,0 +1,314 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshots App snapshot for App component 1`] = `
+<div
+  className="App flex"
+>
+  <HashRouter>
+    <Sidebar />
+    <div
+      className="app-cotent"
+    >
+      <PrivateRoute
+        component={[Function]}
+        path="/home"
+      />
+      <Route
+        component={[Function]}
+        exact={true}
+        path="/"
+      />
+      <PublicRoute
+        component={[Function]}
+        path="/login"
+      />
+      <PrivateRoute
+        component={[Function]}
+        path="/course/:courseid"
+      />
+      <PrivateRoute
+        component={[Function]}
+        path="/allcourses"
+      />
+      <PrivateRoute
+        component={[Function]}
+        path="/my-courses"
+      />
+      <PrivateRoute
+        component={[Function]}
+        path="/wishlist"
+      />
+    </div>
+  </HashRouter>
+  <Rightbar />
+</div>
+`;
+
+exports[`snapshots App snapshot for HandleError component 1`] = `
+<div>
+  <p>
+    OOPS! Something went Wrong:
+  </p>
+  <p
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  />
+  <p>
+    Please try again after sometime
+  </p>
+</div>
+`;
+
+exports[`snapshots App snapshot for Rightbar component 1`] = `
+<div
+  className="rightbar rel"
+>
+  <div
+    className="section rel"
+  >
+    <h2
+      className="title s24 fontb"
+    >
+      Advanced 
+      <span
+        className="fontn"
+      >
+        Search
+      </span>
+    </h2>
+    <div
+      className="search-box rel flex"
+    >
+      <input
+        className="qry s15 fontb"
+        placeholder="Start writing something..."
+        type="text"
+      />
+      <button
+        className="go cfff s15 fontb"
+      >
+        Find
+      </button>
+    </div>
+  </div>
+  <div
+    className="section section-b rel"
+  >
+    <h2
+      className="title s24 fontb"
+    >
+      Popular 
+      <span
+        className="fontn"
+      >
+        This Week
+      </span>
+    </h2>
+    <div
+      className="courses rel flex"
+    >
+      <div
+        className="course-a"
+      />
+      <div
+        className="flex cols"
+      />
+    </div>
+  </div>
+  <div
+    className="section section-b rel"
+  >
+    <h2
+      className="title s24 fontb"
+    >
+      Special 
+      <span
+        className="fontn"
+      >
+        Offers
+      </span>
+    </h2>
+    <div
+      className="special-offer rel flex"
+    >
+      <div
+        className="meta rel"
+      >
+        <h2
+          className="h1 s20 fontb"
+        >
+          50 Days Premium!
+        </h2>
+        <h2
+          className="h2 s14 fontb"
+        >
+          Get it before 5.5.2020
+        </h2>
+        <button
+          className="s15 fontb"
+        >
+          Learn more
+        </button>
+      </div>
+      <div
+        className="vector rel"
+      >
+        <img
+          alt="course"
+          src="cake.png"
+        />
+      </div>
+      <div
+        className="ring abs"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`snapshots App snapshot for SideBar component 1`] = `
+<div
+  className="sidebar rel"
+>
+  <a
+    className="logo bl"
+    href="#/home"
+  >
+    <img
+      alt="Logo"
+      className="bl"
+      src="logo-coral.svg"
+    />
+  </a>
+  <ul
+    className="nav"
+  >
+    <li
+      key="nav-0-home"
+    >
+      <a
+        className="aic link noul flex c333"
+        href="#/home"
+      >
+        <div
+          className="ico s20 icon-home"
+        />
+        <h2
+          className="lbl s20"
+        >
+          Home
+        </h2>
+      </a>
+    </li>
+    <li
+      key="nav-1-allcourses"
+    >
+      <a
+        className="aic link noul flex c333"
+        href="#/allcourses"
+      >
+        <div
+          className="ico s20 icon-ul"
+        />
+        <h2
+          className="lbl s20"
+        >
+          All Courses
+        </h2>
+      </a>
+    </li>
+    <li
+      key="nav-2-my-courses"
+    >
+      <a
+        className="aic link noul flex c333"
+        href="#/my-courses"
+      >
+        <div
+          className="ico s20 icon-briefcase"
+        />
+        <h2
+          className="lbl s20"
+        >
+          My Courses
+        </h2>
+      </a>
+    </li>
+    <li
+      key="nav-3-wishlist"
+    >
+      <a
+        className="aic link noul flex c333"
+        href="#/wishlist"
+      >
+        <div
+          className="ico s20 icon-tag"
+        />
+        <h2
+          className="lbl s20"
+        >
+          Wishlist
+        </h2>
+      </a>
+    </li>
+  </ul>
+  <div
+    className="updated-course flex aic"
+  >
+    <div
+      className="icon-lamp-bright cfff s24 ico"
+    />
+    <div
+      className="lbl s15 fontb c333"
+    >
+      Updated Courses
+      <h2
+        className="author s13 c777"
+      >
+        by Kunal Chandegaonkar
+      </h2>
+    </div>
+  </div>
+  <div
+    className="stats aic flex"
+  >
+    <div
+      className="stats-box flex"
+    >
+      <div
+        className="ico ico-points s24 icon-shield"
+      />
+      <h2
+        className="val s15 c333 fontb"
+      >
+        1800
+      </h2>
+      <h2
+        className="lbl s13 c777"
+      >
+        points
+      </h2>
+    </div>
+    <div
+      className="stats-box flex"
+    >
+      <div
+        className="ico ico-battery s24 icon-battery-90"
+      />
+      <h2
+        className="val s15 c333 fontb"
+      >
+        45.3%
+      </h2>
+      <h2
+        className="lbl s13 c777"
+      >
+        complete
+      </h2>
+    </div>
+  </div>
+</div>
+`;

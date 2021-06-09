@@ -1,0 +1,125 @@
+.App{
+    padding: 0px 20px 0px 0px;
+}
+
+/*
+Splash
+*/
+.splash{}
+.splash img{
+    height: 100px;
+}
+
+.app-cotent {
+    margin-top: 40px;
+    height: 600px;
+    width: 1500px;
+}
+
+/*
+VIDEO PLAYER
+*/
+.player{
+    width: 100%;
+    height: 55%;
+    background: #000;
+}
+.player video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.player .ctrls{
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    height: 90px;
+    background: rgba(62, 62, 62, 0.54);
+    z-index: 9;
+    padding: 0px 15px;
+}
+.player .ctrls .pp{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: #ea5252;
+    color: #fff;    
+}
+.player .ctrls .timer{
+    flex: 1;
+    margin: 0px;
+    text-align: center;
+}
+.player .ctrls .slider{
+    flex: 3;
+}
+.player .ctrls .slider .prog{
+    width: 100%;
+    height: 10px;
+    background: #ffffff;
+    border-radius: 10px;
+}
+.player .ctrls .slider .bar{
+    width: 40%;
+    height: 10px;
+    background: #ea5252;
+    border-radius: 10px;
+}
+.player .ctrls .slider .bar .knob{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    border-radius: 100%;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+    box-shadow: 0px 0px 5px #000;
+}
+.player .ctrls .vol{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(234, 82, 82, 0);
+    color: #fff;
+    margin: 0px 10px;
+}
+.player .ctrls .fs{
+    border: 0px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background: rgba(234, 82, 82, 0);
+    color: #fff;
+    margin: 0px 10px;
+}
+
+
+.allpage {
+    max-width: 555px;
+    padding: 10px;
+}
+
+.fontenroll{
+    padding-bottom: 10px;
+}
+
+.tutor {
+    padding-top: 10px;
+}
+
+.enroll {
+    height: 27px;
+    margin-top: 315px;
+}
+.remove {
+    height: 27px;
+    margin-top: 36px;
+}
+
+.video {
+    height: 370px;
+    width: 470px;
+    margin-right: 10px;
+}
